@@ -178,6 +178,5 @@ This end-to-end healthcare analytics project uses SQL, Excel, and Tableau to ana
 
 **Daniel Groza**  
 Charlotte, NC  
-📧 danielgroza@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/danielgroza)  
 📊 [Tableau Public](https://public.tableau.com/app/profile/daniel.groza)
