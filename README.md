@@ -40,7 +40,7 @@ This end-to-end healthcare analytics project uses **SQL**, **Excel**, and **Tabl
 - **Average Length of Stay (ALOS):** 4.5 days  
 
 ### 📈 Demographic Patterns:
-- Admissions peak in the **50–60 age range**, followed by 40–50, signaling aging-related conditions.
+- Admissions peak in the **50–60 age range**, followed by 20-25, and 40-55, signaling aging-related conditions.
 - **Top Conditions:**  
   - Chronic Kidney Disease – Stage IV (9,128 cases)  
   - Pregnancy complications (6,147)  
@@ -145,17 +145,6 @@ This end-to-end healthcare analytics project uses **SQL**, **Excel**, and **Tabl
 - Automate Tableau refresh using live Excel / SQL links  
 - Combine with **COVID-19 trends** for co-infection risk mapping  
 - Publish to **portfolio website** with embedded dashboards
-
----
-
-## 🔗 Dashboard Links (Coming Soon)
-
-| Dashboard                          | Link             |
-|-----------------------------------|------------------|
-| Hospital Admissions (Pt. 1)       | *TBD*            |
-| Visit Type & Cost Breakdown (Pt. 2)| *TBD*           |
-| Flu Shots Analysis                | *TBD*            |
-| ER Visits                         | *TBD*            |
 
 ---
 
