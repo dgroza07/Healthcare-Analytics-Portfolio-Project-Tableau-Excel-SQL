@@ -5,7 +5,7 @@
 ---
 
 ## 📌 Project Summary  
-This end-to-end healthcare analytics project uses **SQL**, **Excel**, and **Tableau** to explore hospital admissions, emergency department traffic, immunization compliance, and patient demographics across 2022. It combines multiple datasets and SQL scripts into **four interactive Tableau dashboards**, offering a complete view of how patients interact with healthcare systems and where strategic improvements can be made.
+This end-to-end healthcare analytics project uses **SQL**, **Excel**, and **Tableau** to explore hospital admissions, emergency department traffic, immunization compliance, and patient demographics across 2019 & 2022. It combines multiple datasets and SQL scripts into **four interactive Tableau dashboards**, offering a complete view of how patients interact with healthcare systems and where strategic improvements can be made.
 
 ---
 
