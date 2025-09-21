@@ -1,27 +1,25 @@
 # 🏥 Healthcare Analytics Portfolio Project  
 **Hospital Visits & Immunization Insights (2022)**  
-**Author:** Daniel Groza | [LinkedIn](https://www.linkedin.com/in/danielgroza) | [Tableau Public](https://public.tableau.com/app/profile/daniel.groza)
+**Author:** Daniel Groza | [🔗 LinkedIn](https://www.linkedin.com/in/danielgroza) | [📊 Tableau Public](https://public.tableau.com/app/profile/daniel.groza)
 
 ---
 
-## 📌 Project Summary
-
-This end-to-end healthcare analytics project uses **SQL**, **Excel**, and **Tableau** to explore hospital admissions, emergency department traffic, immunization compliance, and patient demographics across 2022. It combines multiple datasets and SQL scripts into **four interactive Tableau dashboards**, offering a complete view of how patients interact with healthcare systems — and where strategic improvements can be made.
+## 📌 Project Summary  
+This end-to-end healthcare analytics project uses **SQL**, **Excel**, and **Tableau** to explore hospital admissions, emergency department traffic, immunization compliance, and patient demographics across 2022. It combines multiple datasets and SQL scripts into **four interactive Tableau dashboards**, offering a complete view of how patients interact with healthcare systems and where strategic improvements can be made.
 
 ---
 
-## 📁 Files Included
-
+## 📁 Files Included  
 - `Healthcare_Data_Analysis.sql` – SQL logic for admissions, cost breakdowns, and visit types  
 - `Hospital ER.csv`  
 - `Healthcare Demo Data.csv`  
 - `Flu shot 2019.xlsx`  
 - Tableau Dashboards (4 total)  
-- `README.md` – This documentation file
+- `README.md` – This documentation file  
 
 ---
 
-## 🔗 Dashboard Links
+## 🔗 Dashboard Links  
 
 | Dashboard Name                            | Tableau Public Link                                                                                              |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
@@ -34,123 +32,123 @@ This end-to-end healthcare analytics project uses **SQL**, **Excel**, and **Tabl
 
 ## 🔍 Dashboard 1: Hospital Admissions & Coverage Overview (Pt. 1)
 
-### 💡 Key Insights:
-- **Total Admissions:** 21,669 across 3,286 unique patients  
-- **Median ER Time:** 60 minutes  
-- **Average Length of Stay (ALOS):** 4.5 days  
+### 💡 Key Insights  
+- Total Admissions: **21,669** across **3,286** unique patients  
+- Median ER Time: **60 minutes**  
+- Average Length of Stay (ALOS): **4.5 days**  
 
-### 📈 Demographic Patterns:
-- Admissions peak in the **50–60 age range**, followed by 20-25, and 40-55, signaling aging-related conditions.
-- **Top Conditions:**  
+### 📈 Demographic Patterns  
+- Admissions peak in **ages 50–60**, followed by **20–25** and **40–55**  
+- Top Conditions:  
   - Chronic Kidney Disease – Stage IV (9,128 cases)  
   - Pregnancy complications (6,147)  
-  - End-stage Renal Disease, Hyperlipidemia, Bronchitis
+  - End-stage Renal Disease, Hyperlipidemia, Bronchitis  
 
-### 💵 Insurance Distribution:
-- **Medicare & Medicaid:** ~47% combined  
-- **Uninsured:** ~5% of total cases  
-- Reliance on public insurance indicates healthcare access challenges.
+### 💵 Insurance Distribution  
+- Medicare & Medicaid: ~**47% combined**  
+- Uninsured: ~**5%** of total cases  
 
-### ✅ Real-World Actions:
-- Prioritize investments in **renal treatment units** and **prenatal clinics**  
-- Deploy **community health education** for chronic disease prevention  
-- Align outpatient coverage policies with top patient needs
+### ✅ Real-World Actions  
+- Invest in **renal units** and **prenatal clinics**  
+- Deploy **chronic disease education** programs  
+- Align **coverage policies** with demand
 
 ---
 
 ## 🔍 Dashboard 2: Visit Type & Cost Breakdown (Pt. 2)
 
-### 💡 Key Insights:
-- **Outpatient Hospital Encounters** dominate volume: 12,217  
-- High counts for **Prenatal Care**, **Follow-ups**, **Emergency Cases**  
-- **Monthly Costs Rise:** From ~$1.4M in January to ~$2.1M in December
+### 💡 Key Insights  
+- Outpatient Encounters: **12,217**  
+- Prenatal Care: **4,710**  
+- Monthly Costs: **$1.4M → $2.1M** from Jan to Dec  
 
-### 📊 Cost Breakdown:
-- Bubble charts show **prenatal care** and **ER visits** lead in cost and volume  
-- **Virtual Visits** are underused despite cost-effectiveness  
+### 📊 Breakdown  
+- Bubble charts: Prenatal and ER visits dominate  
+- Virtual visits are underused  
 
-### ✅ Real-World Actions:
-- Introduce **virtual prenatal care** for low-risk patients  
-- Forecast **staffing needs** based on seasonal cost trends  
-- Bundle common outpatient procedures under **flat-rate payment models**
+### ✅ Real-World Actions  
+- Expand **virtual prenatal care**  
+- Align staffing with **seasonal spikes**  
+- Use **flat-rate bundles** for high-frequency visits
 
 ---
 
 ## 🔍 Dashboard 3: Flu Shots Analysis
 
-### 💡 Key Insights:
-- **Total Shots:** 4,023  
-- **Compliance Rate:** 81.7%  
-- Highest compliance: **50–64 (95.6%)**, **0–17 (92.2%)**  
-- Lowest compliance: **18–34 age group (64.8%)**
+### 💡 Key Insights  
+- Total Flu Shots: **4,023**  
+- Compliance Rate: **81.7%**  
+- High Compliance: **50–64 (95.6%)**, **0–17 (92.2%)**  
+- Low Compliance: **18–34 (64.8%)**
 
-### 📍 Demographic Trends:
-- **Race Breakdown:** Native and Hawaiian populations had highest compliance (93%+), while White and "Other" groups lagged
-- **Geographic Gaps:** Several counties showed below-average immunization
+### 📍 Demographics  
+- Highest Compliance: Native (93.8%), Hawaiian (86.8%)  
+- Lowest: "Other" Race (75.0%)  
+- Gaps by County and Race  
 
-### ✅ Real-World Actions:
-- Create **mobile flu clinics** targeting underperforming counties  
-- Launch **campaigns targeting 18–34-year-olds** via workplace or college programs  
-- Expand **multi-lingual and racial equity efforts** to build trust with "Other" and underserved groups
+### ✅ Real-World Actions  
+- Mobile clinics for **low-coverage counties**  
+- Target **18–34** with workplace/college outreach  
+- Build **equity-focused trust campaigns**
 
 ---
 
 ## 🔍 Dashboard 4: Emergency Room Visits Dashboard
 
-### 💡 Key Insights:
-- **Total Patients:** 9,216  
-- **Avg Wait Time:** 35.26 mins  
-- **Satisfaction Score:** 4.99 / 10  
-- **Peak Hours:** 3–6 AM, Sun–Wed  
-- **Referrals:** Mostly to *General Practice, Ortho, Cardiology*
+### 💡 Key Insights  
+- Total ER Patients: **9,216**  
+- Avg Wait Time: **35.26 mins**  
+- Satisfaction Score: **4.99 / 10**  
+- Peak Volume: **3–6 AM (Tue–Thu)**  
 
-### 📉 Bottlenecks:
-- Long wait times, especially during off-peak staffing  
-- Poor patient experience ratings  
-- Underutilization of referrals for renal and GI despite high chronic illness rates
+### 📉 Bottlenecks  
+- Over **50%** had no referral  
+- **Renal and GI** referrals underused  
+- Wait times low, but satisfaction very poor  
 
-### ✅ Real-World Actions:
-- Adjust **ER shift schedules** to match demand (3–6 AM peak)  
-- Add **wait-time displays** in ER waiting rooms  
-- Build **smart referral pathways** in EMR for chronic patients
+### ✅ Real-World Actions  
+- Align **staffing with night-time traffic**  
+- Automate **referrals in EMR**  
+- Add **real-time wait displays** and **follow-up calls**
 
 ---
 
-## 🧠 BI Value & Strategic Impact
+## 🧠 BI Value & Strategic Impact  
 
 | Area                | Strategic Value                                                                 |
 |---------------------|---------------------------------------------------------------------------------|
-| Immunization        | Improves public health → reduces hospital strain in flu season                  |
-| ER Optimization     | Cuts wait times → boosts satisfaction & throughput                              |
-| Outpatient Planning | Predicts demand → reduces congestion and cost overruns                          |
-| Resource Allocation | Informs hiring & infrastructure investments                                     |
-| Insurance Trends    | Guides payer strategy & value-based care negotiations                           |
+| Immunization        | Improves public health and reduces seasonal strain                              |
+| ER Optimization     | Reduces wait times and improves experience                                      |
+| Outpatient Planning | Informs scheduling and resource bundling strategies                             |
+| Resource Allocation | Directs investments into high-need clinical areas                                |
+| Insurance Strategy  | Supports value-based care and payment alignment                                 |
 
 ---
 
-## 🛠️ Tools Used
+## 🛠️ Tools Used  
 
 | Tool       | Purpose                                      |
 |------------|----------------------------------------------|
-| **SQL**    | ETL, data transformation, CASE logic         |
-| **Excel**  | Cleaning raw CSVs, handling NULLs            |
-| **Tableau**| Visualization, dashboard creation            |
-| **GitHub** | Documentation & version control              |
+| SQL        | Querying, data prep, logic and joins         |
+| Excel      | Cleaning, reshaping, NULL handling           |
+| Tableau    | Dashboard design and visualization           |
+| GitHub     | Version control and documentation            |
 
 ---
 
-## 📌 Next Steps & Enhancements
-
-- Add **forecasting models** for visit volumes  
-- Automate Tableau refresh using live Excel / SQL links  
-- Combine with **COVID-19 trends** for co-infection risk mapping  
-- Publish to **portfolio website** with embedded dashboards
+## 📌 Next Steps & Enhancements  
+- Forecast **monthly visit volume trends**  
+- Automate **Tableau refresh pipelines**  
+- Layer in **COVID infection trends**  
+- Embed into **personal portfolio website**
 
 ---
 
-## 📫 Contact
+## 📫 Contact  
 
 **Daniel Groza**  
+Charlotte, NC  
+✉️ danielgroza@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/danielgroza)  
-📊 [Tableau Public](https://public.tableau.com/app/profile/daniel.groza)  
+📊 [Tableau Public](https://public.tableau.com/app/profile/daniel.groza)
 
